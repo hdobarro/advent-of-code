@@ -5,4 +5,15 @@ function readInput(file) {
   return input.split("\n");
 }
 
-module.exports = readInput;
+function makeMap(lines) {
+  const map = [];
+
+  for (const line of lines) {
+    map.push(line.split(""));
+  }
+  // console.log(map);
+
+  return map;
+}
+
+module.exports = { readInput, makeMap };

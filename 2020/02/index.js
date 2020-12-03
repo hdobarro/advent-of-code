@@ -1,5 +1,5 @@
 // import { readInput } from "../helper";
-const readInput = require("../helper");
+const { readInput } = require("../helper");
 
 let data = readInput("input");
 let valids1 = 0;
